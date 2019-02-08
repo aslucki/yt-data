@@ -21,5 +21,5 @@ yt_video_url = 'https://www.youtube.com/watch?v=aircAruvnKk'
 video_id = url_to_id(yt_video_url)
 
 # Extract up to 100 pages of comments                              
-comments = extractor.extract(video_id, max_pages=100)
+comments = extractor.extract(video_id, max_pages=5, verbose=True)
 ```
