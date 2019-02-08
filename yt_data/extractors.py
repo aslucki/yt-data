@@ -59,7 +59,7 @@ class CommentsExtractor:
         page_cnt = 0
         while True:
 
-            if page_cnt > max_pages:
+            if page_cnt >= max_pages:
                 break
 
             try:
