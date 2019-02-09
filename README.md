@@ -25,5 +25,7 @@ video_id = url_to_id(yt_video_url)
 comments = extractor.extract(video_id, max_pages=5, verbose=True)
 ```
 
-<span style="color:blue"><em>Note: Single page corresponds to a single API request.</em></span>  
+```diff
+- Note: Single page corresponds to a single API request
+```
 Default daily quota for this API is 100000.
