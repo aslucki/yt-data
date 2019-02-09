@@ -26,7 +26,7 @@ comments = extractor.extract(video_id, max_pages=5, verbose=True)
 ```
 ### Notes: 
 ```diff
-- Single page corresponds to a single API request
-- Default daily quota for this API is 100000.
+- Single page corresponds to a single API request.
+- Default daily quota for this API is 10000.
 ```
 
