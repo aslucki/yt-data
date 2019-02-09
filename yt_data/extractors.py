@@ -28,6 +28,8 @@ class CommentsExtractor:
                          params=params)
         if api_response.status_code == 200:
             return api_response.json()
+        else:
+        	print("Error:", api_response.text)
 
         return None
 
