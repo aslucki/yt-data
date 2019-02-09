@@ -7,7 +7,7 @@ From the parent directory run:
 `python setup.py install`
 
 # How to use
-## 1. Extract all comments from a YouTube video:  
+## 1. Extract comments from a YouTube video:  
 ```python
 from yt_data.extractors import CommentsExtractor
 from yt_data.utils import url_to_id
