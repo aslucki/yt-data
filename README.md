@@ -7,7 +7,7 @@ From the parent directory run:
 `python setup.py install`
 
 # How to use
-1. Extract all comments from a YouTube video:  
+## 1. Extract all comments from a YouTube video:  
 ```python
 from yt_data.extractors import CommentsExtractor
 from yt_data.utils import url_to_id
@@ -24,8 +24,9 @@ video_id = url_to_id(yt_video_url)
 # There are 100 comments per page                              
 comments = extractor.extract(video_id, max_pages=5, verbose=True)
 ```
-
+### Notes: 
 ```diff
-- Note: Single page corresponds to a single API request
+- Single page corresponds to a single API request
+- Default daily quota for this API is 100000.
 ```
-Default daily quota for this API is 100000.
+
