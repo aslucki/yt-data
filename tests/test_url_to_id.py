@@ -39,3 +39,4 @@ def test_wrong_type():
     url = 1203
 
     assert url_to_id(url) is None
+    assert 1 == 3
