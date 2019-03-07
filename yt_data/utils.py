@@ -2,9 +2,10 @@ import urllib.parse as urlparse
 
 
 def url_to_id(url: str)->str:
-    """
-    Extracts video_id from a YouTube video url
+    """Extracts video_id from a YouTube video url
+    
     :param url: YouTube video url
+    
     :return: video_id
     """
 
